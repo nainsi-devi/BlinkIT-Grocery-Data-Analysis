@@ -18,9 +18,9 @@ The dashboard highlights these headline metrics:
 
 | KPI | Displayed Value | Description |
 |---|---:|---|
-| Total Sales | 936,768.57 | Overall sales revenue in the dataset |
-| Average Sales | 140.63 | Average sales value per record/transaction, according to the workbook's measure |
-| Number of Items | 6,661 | Item count represented by the dashboard measure |
+| Total Sales | 1,201,681.49 | Total sales revenue represented in the current dashboard view |
+| Average Sales | 140.99 | Average sales value calculated by the dashboard |
+| Number of Items | 8,523.00 | Item count represented by the dashboard measure |
 | Average Rating | 3.97 | Average customer rating |
 
 *Values reflect the current dashboard view and may change when filters are applied.*
@@ -37,10 +37,38 @@ The dashboard includes the following visualizations:
 - **Outlet Establishment Year:** Shows how sales vary by outlet establishment year.
 - **Outlet Establishment Year Filter:** Lets users filter the dashboard by selected establishment years.
 
+### 1. Sales by Fat Content
+A pie chart compares sales for **Low Fat** and **Regular** products. In the current view, Low Fat products account for the larger share of sales.
+
+### 2. Sales by Item Type
+A horizontal bar chart compares total sales across grocery categories, including Fruits and Vegetables, Snack Foods, Household, Frozen Foods, Dairy, Canned products, and other item types. Fruits and Vegetables and Snack Foods are among the leading categories in the displayed chart.
+
+### 3. Sales by Outlet Size
+A doughnut chart compares sales contribution from **High**, **Medium**, and **Small** outlets. Medium outlets have the largest share in the current view.
+
+### 4. Sales by Outlet Location
+A bar-style visual compares sales across **Tier 1**, **Tier 2**, and **Tier 3** outlet locations.
+
+| Outlet Location | Sales |
+|---|---:|
+| Tier 3 | 472,133.03 |
+| Tier 2 | 393,150.65 |
+| Tier 1 | 336,397.81 |
+
+Tier 3 has the highest displayed sales among the three location tiers.
+
+### 5. Sales by Outlet
+A clustered horizontal bar chart compares Low Fat and Regular product sales across Tier 1, Tier 2, and Tier 3 outlets.
+
+### 6. Outlet Establishment Year
+An area chart shows sales across outlet establishment years. In the current view, the chart reaches its highest point around **2018**.
+
+### 7. Outlet Establishment Year Filter
+A slicer allows users to select establishment years and interactively filter the dashboard.
 ## Tools & Skills
 
 - **Microsoft Excel** — data inspection and preparation (where applicable)
-- **Power BI** — dashboard design, KPI cards, charts, and interactive filtering
+- **Excel** — dashboard design, KPI cards, charts, and interactive filtering
 - **Data Analysis** — comparing categories and identifying sales patterns
 - **Data Visualization** — presenting results in a clear, interactive format
 
@@ -83,25 +111,8 @@ Blinkit-Grocery-Data-Analysis/
 
 Rename `Dashboard-Screenshort.png` to `dashboard-screenshot.png` if you prefer a more standard filename, and update the image path in this README accordingly.
 
-## How to Use
-
-1. Download or clone this repository.
-2. Open the Excel workbook to inspect the source data.
-3. Open the Power BI `.pbix` file, if included, to explore the report.
-4. Use the outlet establishment year filter and dashboard visuals to compare sales across categories.
 
 ## Project Purpose
 
 This project demonstrates practical data-analysis and dashboarding skills, including KPI reporting, category comparisons, interactive filtering, and communicating findings through visualizations.
 
-## Author
-
-**Your Name**  
-Aspiring Data Analyst
-
-- GitHub: [Add your GitHub profile link]
-- LinkedIn: [Add your LinkedIn profile link]
-
----
-
-*Created as a data analytics portfolio project.*
